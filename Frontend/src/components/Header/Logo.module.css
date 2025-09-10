@@ -1,0 +1,22 @@
+.logo {
+  font-family: "Gilroy", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-name {
+  margin-left: 5px;
+}
+
+.logoImg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

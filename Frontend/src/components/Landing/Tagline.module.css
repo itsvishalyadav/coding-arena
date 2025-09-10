@@ -1,0 +1,20 @@
+.tagline {
+  font-family: "Gilroy", sans-serif;
+  font-size: 75px;
+  font-weight: normal;
+  font-style: normal;
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+}
+
+.cursive {
+  font-family: "Miniver", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(90deg, #3b82f6, #9333ea, #ef4444);
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+}

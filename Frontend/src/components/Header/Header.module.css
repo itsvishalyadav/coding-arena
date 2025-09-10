@@ -1,0 +1,27 @@
+.header,
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  margin: 20px 100px;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.login-btn:hover {
+  color: #999;
+}
+
+.buttons {
+  gap: 50px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}

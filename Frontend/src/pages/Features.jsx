@@ -1,9 +1,12 @@
 import "./Features.css";
-import GradientButton from "../components/GradientButton";
+import GradientButton from "../components/Features/GradientButton";
+import Header from "../components/Header/Header";
 function Features() {
     return(
-        <div className="bg-black pt-10">
-            <div className="w-3/4 mx-auto">
+
+        <div className="bg-black">
+            <Header></Header>
+            <div className="w-3/4 mx-auto mt-20">
                 <h1 className="text-6xl mb-4 text-white"><span className="gradient_text">Everything</span> You Need</h1>
                 <p className="text-white">All in one Platform to learn practice and compete</p>
             </div>

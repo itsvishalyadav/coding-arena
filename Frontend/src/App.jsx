@@ -12,6 +12,9 @@ function App() {
         <Route path="/features" element={<Features />} />
         <Route path="/login" element=""></Route>
         <Route path="/signup" element=""></Route>
+        <Route path="/about-us" element=""></Route>
+        <Route path="/privacy-policy" element=""></Route>
+        <Route path="/terms-and-conditions" element=""></Route>
       </Routes>
     </>
   );

@@ -1,0 +1,12 @@
+.logo-left {
+    color: rgb(151, 151, 151);
+}
+.footer {
+  font-family: sans-serif;
+  margin: 20px 100px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}

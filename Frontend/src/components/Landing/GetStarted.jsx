@@ -1,9 +1,8 @@
-import styles from "./GetStarted.module.css";
 import { useState } from "react";
+import styles from "./GetStarted.module.css";
 
 export default function GetStarted({ onClick }) {
   const [hovered, setHovered] = useState(false);
-
   return (
     <>
       <div

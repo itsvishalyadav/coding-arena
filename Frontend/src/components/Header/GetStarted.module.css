@@ -4,3 +4,6 @@
   border-radius: 10px;
   background: linear-gradient(120deg, #000000, #171717, #161616);
 }
+.hovered {
+  cursor: pointer;
+}

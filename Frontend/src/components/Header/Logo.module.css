@@ -3,6 +3,7 @@
   font-size: 40px;
   font-weight: 600;
   font-style: normal;
+  cursor: pointer;
 }
 
 .logo {
@@ -15,7 +16,7 @@
   margin-left: 5px;
 }
 
-.logoImg{
+.logoImg {
   display: flex;
   justify-content: center;
   align-items: center;

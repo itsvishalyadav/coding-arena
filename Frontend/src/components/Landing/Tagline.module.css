@@ -1,3 +1,9 @@
+.tagline-call-btn{
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
 .tagline {
   font-family: "Gilroy", sans-serif;
   font-size: 75px;
@@ -6,6 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 550px;
+  line-height: 80px;
 }
 
 .cursive {
@@ -13,8 +20,18 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background: linear-gradient(90deg, #3b82f6, #9333ea, #ef4444);
+  background: linear-gradient(90deg, #1C59FB, #D614E6, #F1041C);
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
   color: transparent; 
+}
+
+.callFeatures{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(146, 146, 146);
+  margin-top: 40px;
+  width: 400px;
+  font-weight: 400;
+  line-height: 30px;
 }

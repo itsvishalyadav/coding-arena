@@ -1,13 +1,15 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import Features from "./pages/Features.jsx";
 import LandingPage from "./pages/LandingPage";
 
 function App() {
+
   return (
     <>
       <Routes>
         <Route path="/" element={<LandingPage />}></Route>
-        <Route path="/features" element=""></Route>
+        <Route path="/features" element={<Features />} />
         <Route path="/login" element=""></Route>
         <Route path="/signup" element=""></Route>
       </Routes>
@@ -15,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;  

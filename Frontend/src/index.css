@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.gradient_text{
+    @apply bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent;
+}

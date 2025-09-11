@@ -1,10 +1,9 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Features from "./pages/Features.jsx";
+import Features from "./components/Features/Features.jsx";
 import LandingPage from "./pages/LandingPage";
 
 function App() {
-
   return (
     <>
       <Routes>
@@ -20,4 +19,4 @@ function App() {
   );
 }
 
-export default App;  
+export default App;

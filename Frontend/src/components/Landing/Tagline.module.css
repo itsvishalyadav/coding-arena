@@ -10,20 +10,9 @@
   font-weight: normal;
   font-style: normal;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 550px;
   line-height: 80px;
-}
-
-.cursive {
-  font-family: "Miniver", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  background: linear-gradient(90deg, #1C59FB, #D614E6, #F1041C);
-  -webkit-background-clip: text; 
-  -webkit-text-fill-color: transparent;
-  color: transparent; 
 }
 
 .callFeatures{

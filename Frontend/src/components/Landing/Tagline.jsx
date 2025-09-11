@@ -1,6 +1,7 @@
 import styles from "./Tagline.module.css";
 import { useNavigate } from "react-router-dom";
 import GetStarted from "./GetStarted";
+import TypedText from "./TypeWriterText";
 
 export default function Tagline() {
   const navigate = useNavigate();
@@ -12,11 +13,11 @@ export default function Tagline() {
     <>
       <div className={styles["tagline-call-btn"]}>
         <div className={styles.tagline}>
-          Enter The
-          <span>
-            Arena. <span className={styles.cursive}>Compete</span>
-          </span>
-          And Code
+          <div>Enter The</div>
+          <div>
+            Arena. <TypedText />
+          </div>
+          <div>And Learn</div>
         </div>
         <div className={styles.callFeatures}>
           Battle in real-time challenges to prove skills and become champions.

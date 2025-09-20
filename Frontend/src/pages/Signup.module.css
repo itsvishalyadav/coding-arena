@@ -1,0 +1,58 @@
+.signup,
+.login {
+  margin: 20px 100px;
+}
+
+.mainContent {
+  width: 50%;
+  margin-top: 80px;
+  border-right: 5px solid #626262;
+}
+
+.inputs {
+  border: 2px solid gray;
+  border-radius: 15px;
+  padding: 10px 20px;
+  background-color: #222222;
+}
+.smallText {
+  color: rgb(146, 146, 146);
+}
+
+.email,
+.password {
+  width: 400px;
+}
+.firstName,
+.lastName {
+  width: 190px;
+}
+
+.heading {
+  font-family: "Gilroy";
+  font-size: 50px;
+  font-weight: 600;
+}
+.form {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.nameInput {
+  display: flex;
+  gap: 20px;
+}
+
+.submitBtn {
+  background: linear-gradient(90deg, #1c59fb, #d614e6, #f1041c);
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 15px 30px;
+  border-radius: 15px;
+}

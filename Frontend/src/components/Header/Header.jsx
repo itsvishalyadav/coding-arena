@@ -9,13 +9,11 @@ export default function Header() {
   const handleSignupClick = () => {
     navigate("/signup");
   };
-  const handleLogoClick = () => {
-    navigate("/");
-  };
+
   return (
     <>
       <div className={styles.header}>
-        <Logo onClick={handleLogoClick} />
+        <Logo />
         <NavBar />
         <div className={styles.buttons}>
           <Link to="/login" className={styles["login-btn"]}>

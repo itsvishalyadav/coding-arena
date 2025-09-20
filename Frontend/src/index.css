@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
-.gradient_text{
-    @apply bg-gradient-to-r from-blue-500 via-purple-500 to-red-500 bg-clip-text text-transparent;
+.gradient_text {
+  @apply bg-gradient-to-r from-[#1c59fb] via-[#d614e6] to-[#f1041c] bg-clip-text text-transparent;
+}
+
+.typed-cursor {
+  font-size: 75px;
 }

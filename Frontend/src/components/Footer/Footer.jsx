@@ -17,10 +17,10 @@ export default function Footer() {
     "Discord / Slack Link",
   ];
   const support = [
+    "About Us",
     "Help Center / FAQs",
     "Contact Us",
     "Report a Bug",
-    "Feature Request",
   ];
   return (
     <>

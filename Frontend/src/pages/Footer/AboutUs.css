@@ -1,0 +1,57 @@
+.about-section {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.about-badge {
+  font-family: "Gilroy", sans-serif;
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #1c59fb, #d614e6, #f1041c);
+  margin-bottom: 24px;
+}
+
+.about-heading {
+  font-family: "Gilroy", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.4;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: rgb(146, 146, 146);
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.about-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-tag {
+  padding: 8px 20px;
+  border: 1px solid #555;
+  border-radius: 9999px;
+  font-size: 0.95rem;
+  color: rgb(146, 146, 146);
+  transition: all 0.3s ease;
+}
+
+.about-tag:hover {
+  background: rgba(255, 255, 255, 0.092);
+  color: #fff;
+  border-color: #888;
+}

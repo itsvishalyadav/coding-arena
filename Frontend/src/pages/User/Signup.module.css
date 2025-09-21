@@ -1,6 +1,7 @@
 .signup,
 .login {
   margin: 20px 100px;
+  padding-bottom: 40px;
 }
 
 .mainContent {
@@ -10,6 +11,7 @@
 }
 
 .inputs {
+  width: 400px;
   border: 2px solid gray;
   border-radius: 15px;
   padding: 10px 20px;
@@ -19,14 +21,8 @@
   color: rgb(146, 146, 146);
 }
 
-.email,
-.password {
-  width: 400px;
-}
-.firstName,
-.lastName {
-  width: 190px;
-}
+
+
 
 .heading {
   font-family: "Gilroy";
@@ -42,10 +38,7 @@
   gap: 40px;
 }
 
-.nameInput {
-  display: flex;
-  gap: 20px;
-}
+
 
 .submitBtn {
   background: linear-gradient(90deg, #1c59fb, #d614e6, #f1041c);

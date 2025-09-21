@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./QuickNav.module.css";
+import slugify from "slugify";
 
 export default function QuickNav({ list }) {
   return (
@@ -7,7 +8,7 @@ export default function QuickNav({ list }) {
       <ul>
         {list.map((item) => (
           <li className={styles.listItems}>
-            <Link to="">{item}</Link>
+            <Link to={`/${slugify(item, { lower: true })}`}>{item}</Link>
           </li>
         ))}
       </ul>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../components/Header/Logo";
+import Logo from "../../components/Header/Logo";
 import styles from "./Signup.module.css";
 export default function Login() {
   return (

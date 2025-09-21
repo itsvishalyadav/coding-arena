@@ -1,8 +1,9 @@
-import Header from "../components/Header/Header";
+import Header from "../../components/Header/Header";
 import styles from "./LandingPage.module.css";
-import Tagline from "../components/Landing/Tagline";
-import Footer from "../components/Footer/Footer";
-import Features from "../components/Features/Features";
+import Tagline from "../../components/Landing/Tagline";
+import Footer from "../../components/Footer/Footer";
+import Features from "../../components/Features/Features";
+import CTA from "../../components/Landing/CTA";
 
 export default function LandingPage() {
   return (
@@ -15,6 +16,7 @@ export default function LandingPage() {
         </div>
       </div>
       <Features/>
+      <CTA/>
       <Footer />
     </>
   );
